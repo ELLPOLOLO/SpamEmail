@@ -1,55 +1,62 @@
-# 🧨 TrashMail by H04
+# 📧 SpamEmail by H04
 
-TrashMail es una herramienta de terminal escrita en Python que permite crear y gestionar **correos temporales**. Puedes crear cuentas personalizadas o aleatorias, revisar la bandeja de entrada, esperar nuevos mensajes en tiempo real y eliminar todos los correos con una interfaz visual en terminal.
+SpamEmail es una herramienta de terminal escrita en Python para enviar correos electrónicos masivos a través de SMTP. Esta herramienta permite seleccionar entre dos proveedores de correo (Gmail y Yandex), configurar el correo de destino, asunto, mensaje, y el número de correos a enviar. 
+
+Con una interfaz interactiva en la terminal, SpamEmail facilita el envío de correos a múltiples destinatarios, con soporte para el uso de contraseñas de aplicación o contraseñas normales dependiendo del proveedor elegido.
 
 ---
 
 ## 🚀 Características
 
-- Crear correos temporales personalizados o aleatorios
-- Ver bandeja de entrada completa
-- Esperar nuevos correos en tiempo real
-- Eliminar todos los correos
-- Interfaz visual con colorama
+- Enviar correos a múltiples destinatarios
+- Soporte para proveedores **Gmail** y **Yandex**
+- Interfaz interactiva en la terminal
+- Envío de correos con **contraseña de aplicación** (Gmail) o **contraseña normal** (Yandex)
 - Compatible con Linux (probado en terminal)
-- Preparado para ejecutarse en un **entorno virtual de Python**
 
 ---
 
 ## 📦 Requisitos
 
 - Python 3.7 o superior
-- `requests`
+- `smtplib`
 - `colorama`
----
+
+Puedes instalar las dependencias con:
+
+pip3 install -r requirements.txt
 
 ## 🧪 Instalación y uso
 
-## 1. Clona este repositorio
+## Clona este repositorio:
 
-git clone https://github.com/ELLPOLOLO/TrashMail
+git clone https://github.com/tuusuario/SpamEmail
 
-cd trashmail
+cd SpamEmail
 
-## 2. Crea y activa un entorno virtual
+## Crea y activa un entorno virtual:
+
 python -m venv venv
 
-source venv/bin/activate      # En Linux/macOS
+source venv/bin/activate  # En Linux/macOS
 
-venv\Scripts\activate         # En Windows
+venv\Scripts\activate     # En Windows
 
-## 3. Instala las dependencias
+## Instala las dependencias:
 
 pip install -r requirements.txt
 
-## 4. Ejecuta el script
+## Ejecuta el script:
 
-python trashmail.py
+python SpamEmail.py
 
-⚠️ Aviso legal
-Esta herramienta fue desarrollada únicamente con fines educativos y de aprendizaje personal.
-No me hago responsable del uso indebido que se le pueda dar.
-El usuario es el único responsable de respetar las leyes y términos de uso de servicios de terceros.
+## ⚠️ Aviso Legal
+Esta herramienta fue creada exclusivamente con fines educativos y de pruebas. El uso indebido de SpamEmail para acosar, enviar SPAM o atacar a otros usuarios es estrictamente responsabilidad del usuario.
+
+El autor no se hace responsable del uso que se le dé a esta herramienta. Úsala con ética y responsabilidad.
+
+## 📜 Licencia
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
 ## 🛠️ Autor
 Desarrollado por H04 :)
