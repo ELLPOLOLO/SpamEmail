@@ -56,7 +56,7 @@ Esta herramienta fue creada exclusivamente con fines educativos y de pruebas. El
 El autor no se hace responsable del uso que se le dé a esta herramienta. Úsala con ética y responsabilidad.
 
 ## 📜 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la [Licencia MIT](LICENSE) - ver el archivo para más detalles.
 
 ## 🛠️ Autor
 Desarrollado por H04 :)
